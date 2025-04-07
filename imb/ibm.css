@@ -1,0 +1,76 @@
+body{
+    padding: 8px;
+}
+a{
+    text-decoration: none;
+    color: rgb(50, 49, 49);
+}
+nav{
+    display: flex;
+    color: rgb(50, 49, 49);
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+.navElement{
+    padding: 3px 12px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.leftside{
+    /* border: 3px solid rgb(243, 86, 86); */
+    display: flex;
+    align-items: center;
+    align-content: baseline;
+}
+.rightside{
+display: flex;
+justify-content: space-between;
+}
+
+.profile{
+    height: 2em;
+}
+#profile{
+    height: 100%
+}
+
+
+h6{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+    /* border: 3px solid rgb(89, 218, 186); */
+}
+.top,.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    height: 8rem;
+    /* border: 3px solid rgb(147, 132, 208); */
+    padding: 0;
+
+}
+.img{
+    /* border:3px solid rgb(243, 86, 86); */
+    display: flex;
+    justify-content: space-between; 
+}
+p{
+    flex: 1;
+}

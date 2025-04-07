@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.div1, .div4{
+    width: 60vh;
+    height: 60vh;
+    background-color: gray;
+    color: whitesmoke;
+}
+.div2,.div3{
+    width: 30vh;
+    height: 30vh;
+    background-color: black;
+    color: whitesmoke;
+
+}
+.div2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.div3{
+    position: absolute;
+    bottom: 0;
+}
+.div4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

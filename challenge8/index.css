@@ -1,0 +1,15 @@
+.div1{
+    background-color: gray;
+    border-radius: 2px;
+    height: 300px;
+    position: relative;
+}
+.div2{
+    width: 40%;
+    height: 40%;
+    background-color: rgb(149, 225, 161);
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

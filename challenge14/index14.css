@@ -1,0 +1,16 @@
+.div1{
+    width: 60vh;
+    height: 60vh;
+    position: absolute;
+    background-color: gray;
+    color: whitesmoke;
+    /* bottom: 0; */
+    right: 0px;
+}
+.div2{
+    background-color: black;
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,19 @@
+div{
+    background-color: black;
+    height: 30dvh;
+    width: 30dvh;
+    position: absolute;
+    inset: 0px 0px 0px 0px;
+    transform: translate(50%, 50%);
+    color: white;
+}
+.div2,.div4{
+    background-color: lightblue;
+    color: indigo;
+}
+
+.div1{
+    inset: 0 0 0 0;
+    transform: translate(0%, 0%);
+    position: relative;
+}

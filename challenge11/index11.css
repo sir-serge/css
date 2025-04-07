@@ -1,0 +1,22 @@
+.div1{
+    background-color: gray;
+    border-radius: 3px;
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+}
+.div2{
+    background-color: lightblue;
+    position: absolute;
+    inset: auto 0px 0px auto;
+    /* transform: translate(50%, 0% 0% ); */
+    height: 30dvh;
+    width: 30dvh;
+}
+.div3{
+    background-color: rgb(159, 73, 126);
+    position: absolute;
+    inset: auto 10px 10px auto;
+    height: 10dvh;
+    width: 10dvh;
+}

@@ -1,0 +1,27 @@
+.div1{
+    background-color: rgb(22, 198, 128);
+    width: 100%;
+    height: 60vh;
+    border: 2px solid rgb(28, 3, 48);
+    position: relative;
+}
+.div2, .div3{
+    background-color: rgb(154, 239, 187);
+    width: 10%;
+    /* height: 40%; */
+    top: 15px;
+    bottom: 15px;
+
+}
+.div2{
+    position: absolute;
+    /* top: 50px; */
+    left: 25%;
+    /* transform: translate(0%, -50%); */
+}
+.div3{
+    position: absolute;
+    /* top: 50px; */
+    right: 25%;
+    /* transform: translate(50%, 50%); */
+}

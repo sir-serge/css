@@ -1,0 +1,43 @@
+header,nav{
+    height: 5%;
+    margin-bottom: 6px;
+    padding: 8px;
+    text-align: center;
+    background: #6c6b6b;
+}
+.container{
+    height: 70%;
+    gap: 6px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+aside{
+    background: #9cedfb93;
+    width: 40%;
+}
+.main{
+    background: #beeb9493;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+section,article{
+   
+    background: #747373;
+    width: 100%;
+    height: 50%;
+}
+body{
+    background: #f0f0f0;
+    height: 90vh;
+    padding: 6px;
+}
+footer{
+    height: 5%;
+    margin-top: 6px;
+    padding: 8px;
+    text-align: center;
+    background: #6c6b6b;
+}
