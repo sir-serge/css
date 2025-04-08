@@ -1,0 +1,128 @@
+:root {
+    --blue: #009edE;
+    --white: #ffffff;
+  }
+  p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    }
+body{
+    background: var(--white);
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid rgb(21, 215, 115);
+    padding: 0%;
+    margin: 0%;
+}
+.head{
+    /* background: var(--blue); */
+
+}
+.img{
+    height: 30px;
+}
+header{
+    background: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4em;
+    padding-left: 4em;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    padding-right: 4em;
+    padding-left: 4em;
+
+}
+a{
+    text-decoration: none;
+    color: var(--blue);
+}
+pre {
+    margin: 0;
+    padding: 0;
+  }
+label{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(21, 21, 215);
+    align-items: center;
+}
+.CALCULATE{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+button{
+    width: fit-content;
+    height: 20px;
+}
+textarea{
+    height: 10px;
+    width: 100px;
+}
+#BUTTON{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+h3,h2,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+#main-img{
+    height: 40dvh;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4em;
+    padding-left: 4em;
+    text-align: center;
+    color: var(--white);
+}
+.div1{
+    background: var(--blue);
+    padding: 10px;
+}
+.div2{
+    background: rgb(6, 37, 133);
+    padding: 10px;
+}
+.div3{
+    background: rgb(3, 56, 3);
+    padding: 10px;
+}
+.div4{
+    background: rgb(1, 155, 1);
+    padding: 10px;
+}
+
+.div5{
+    background: rgb(201, 42, 185);
+    padding: 10px;
+}
+.middle{
+    justify-content: space-around;
+    border: 2px solid rgb(0, 0, 0);
+}
